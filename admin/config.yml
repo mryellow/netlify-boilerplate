@@ -1,6 +1,6 @@
 backend:
-  #name: git-gateway
-  name: github
+  name: git-gateway
+  #name: github
   repo: mryellow/netlify-boilerplate
   branch: master
   base_url: https://magical-dusk-d0fbb7.netlify.app
