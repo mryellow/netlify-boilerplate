@@ -1,0 +1,19 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>{{ title }}</title>
+
+	<link rel="stylesheet" href="/assets/styles/bootstrap.min.css">
+	<link rel="stylesheet" href="/assets/styles/main.css">
+	<script src="/assets/js/bootstrap.bundle.min.js" defer></script>
+</head>
+<body>
+	{% include "nav.html" %}
+
+	<div class="container">
+		{{ content }}
+	</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "netlify-boilerplate",
+  "version": "1.0.0",
+  "description": "``` sudo apt-get install ruby2.5-dev sudo gem install public_suffix -v 4.0.7 sudo gem install bundler -v 2.3.26 #sudo gem install google-protobuf -v 3.22.2 # FIXME: No good... Circular deps sudo gem install google-protobuf -v 3.21.0 sudo gem install jekyll bundler bundle install jekyll serve ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mryellow/netlify-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mryellow/netlify-boilerplate/issues"
+  },
+  "homepage": "https://github.com/mryellow/netlify-boilerplate#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0"
+  }
+}
